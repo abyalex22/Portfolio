@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nerko+One&family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- nav bar -->
+        <nav>
+            <!-- logo image -->
+            <img class="logo" src="./images/logo.jpg" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="list" href="#home">Home</a></li>
+                <li class="list-items"><a class="list" href="#about">About</a></li>
+                <li class="list-items"><a class="list" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="list" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <!-- home content -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInDown" id="username" >I'm Aby <span id="lname">Alex</span>
+                </h1>
+                <p id="userdetails">this is my official portfolio website to describe all
+                    <br>details and work experience in Web Development
+                </p>
+                <a id="download" href="./images/Aby Alex CV (1).pdf" target="_blank">Download CV</a>
+            </div>
+            <!-- home image -->
+            <div class="home-image">
+                <!-- shape img -->
+                <img id="shape" class="group1" src="./images/shape-removebg-preview.png" alt="">
+                <!-- girl image -->
+                <img id="girl" class="group1" height="60px" src="./images/girl_image-removebg-preview.png" alt="">
+
+
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 id="mainhead">About Me</h2>
+                <span id="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img id="img1" src="./images/aboutme.avif" alt="">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quidem quis consequuntur earum
+                        modi possimus ratione nesciunt tempora facere amet odit cumque reprehenderit laboriosam
+                        quisquam, deserunt quo laborum tempore asperiores.
+                        Voluptas animi quod quae officia perferendis quo optio, eligendi quis corporis illum inventore
+                        doloribus adipisci nostrum magnam tempora minima amet beatae reiciendis consectetur odit
+                        veritatis magni eius accusantium! Sit, voluptas.</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <!-- usericon -->
+                            <i class="fa-solid fa-user"></i>
+                            <span>Aby Alex</span>
+                        </div>
+                        <div class="infobox">
+                            <!-- phone num -->
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9188375562</span>
+                        </div>
+                        <div class="infobox">
+                            <!-- email -->
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abyalex356@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- my skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 id="mainhead">Skills</h2>
+                <span id="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progerssbars">
+                    <!-- progress bars -->
+                    <div class="bars">
+
+                        <h3 class="mainhead">HTML</h3>
+                        <span class="barpercentage">90%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="basebar
+                            htmlbar "></div>
+
+                    </div>
+                    <div class="bars">
+
+                        <h3 class="mainhead">CSS</h3>
+                        <span class="barpercentage">60%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="basebar
+                            cssbar "></div>
+
+                    </div>
+                    <div class="bars">
+
+                        <h3 class="mainhead">JS</h3>
+                        <span class="barpercentage">0%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="basebar
+                            jsbar "></div>
+
+                    </div>
+                    <div class="bars">
+
+                        <h3 class="mainhead">React</h3>
+                        <span class="barpercentage">0%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="basebar
+                            reactbar "></div>
+
+                    </div>
+                    <div class="bars">
+
+                        <h3 class="mainhead">Angular</h3>
+                        <span class="barpercentage">0%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="basebar
+                            angularbar "></div>
+
+                    </div>
+
+                </div>
+                <div data-aos="fade-left" class="skillimage">
+                    <img width="100%" class="myskill" src="./images/istockphoto-1393379238-612x612.jpg" alt="no image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 id="mainhead">Contacts</h2>
+                <span id="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aby-alex-58b1191bb/"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+
+                <!-- twitter -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+
+                <!-- instagram -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+
+                <!-- email -->
+                <div class="icon">
+                    <a href=""><i class="fa-solid fa-envelope brands"></i></a>
+                </div>
+
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy;My Portfolio Website -September 2024, All rights reserved to &reg; Aby Alex</p>
+            <div class="uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

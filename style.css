@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font made default from google font */
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo{
+    width: 120px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+  
+    margin:0px 25px 40px  ;
+}
+.list{
+font-weight: 700;
+color: black;
+text-decoration: none;
+}
+.list:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 18% 0px 0px 12%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family:cursive;
+}
+#lname{
+    font-family:cursive;
+    color: rgb(108, 9, 178);
+}
+#userdetails{
+    line-height: 1.2;
+}
+#download
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display:inline-block;
+    border-radius: 5px;
+    margin: 20px 0px ;  
+}
+.home-image{
+    width: 45%;
+    height: 75%;
+     position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+.group1{
+    position:absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    margin-top: 220px;
+    transform: translateX(-30%);
+    transition: bottom 2s, left 1s;
+}
+.home-image:hover #shape{
+bottom: 90px;
+}
+#girl{
+    height: 500px;
+}
+.home-image:hover #girl{
+    left: 30px;
+}
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+#mainhead{
+    font-weight: 700;
+    font-size: 30px;
+}
+#subhead{
+    color: green;
+    font-size: 20px;
+}
+.aboutbody{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+#img1{
+    width: 100%;
+}
+#aboutcontent{
+   font-size: 20px;
+   text-align: justify; 
+}
+.informations{
+    margin-top: 1.3rem;
+}
+.infobox{
+    margin-bottom: 10px;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+#skill{
+    margin: 8% 8% 0px 8%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+margin-top: 50px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+.mainhead, .barpercentage{
+    font-weight: 600px;
+    font-size: 1.3rem;
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 90%;
+}
+.cssbar{
+    background-color: orange;
+    width: 60%;
+}
+.jsbar{
+    background-color: orange;
+    width: 0%;
+}
+.reactbar{
+    background-color: orange;
+    width: 0%;
+}
+.angularbar{
+    background-color: orange;
+    width: 0%;
+}
+#contact{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, red, yellow, orange);
+}
+.icon:hover .brands{
+    color: white;
+    /* animation */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg) ;
+    }
+    20%{
+        transform: rotate(-30deg) ;
+    }
+    40%{
+        transform: rotate(30deg) ;
+    }
+    60%{
+        transform: rotate(-30deg) ;
+    }
+    80%{
+        transform: rotate(30deg) ;
+    }
+    100%{
+        transform: rotate(-30deg) ;
+    }
+}
+footer{
+    margin: 8% 8% 0px 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 700;
+
+}
+.uparrow{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: -20px -118px 0px 0px;       
+}
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
